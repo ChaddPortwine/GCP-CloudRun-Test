@@ -1,0 +1,22 @@
+{
+  "name": "gcp-cloudrun-test",
+  "version": "1.0.0",
+  "description": "First Pass RSS parser in the cloud",
+  "main": "index.js",
+  "scripts": {
+    "test": "test"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/ChaddPortwine/GCP-CloudRun-Test.git"
+  },
+  "author": "chaddportwine",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/ChaddPortwine/GCP-CloudRun-Test/issues"
+  },
+  "homepage": "https://github.com/ChaddPortwine/GCP-CloudRun-Test#readme",
+  "dependencies": {
+    "rss-to-json": "^2.0.2"
+  }
+}
