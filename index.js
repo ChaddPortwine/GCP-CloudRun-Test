@@ -1,9 +1,14 @@
-const { parse } = require('rss-to-json');
-// async await
-(async () => {
+const express = require('express');
+const app = express();
 
-    var rss = await parse('https://blog.ethereum.org/feed.xml');
+app.get('/', (req, res) => {
+  const name = process.env.NAME || 'World';
+  res.send(`Hello ${name}!`);
+});
 
-    console.log(JSON.stringify(rss, null, 3));
+const port = process.env.PORT || 8080;
+app.listen(port, () => {
+  console.log(`helloworld: listening on port ${port}`);
+});
 
-})();
+module.exports = app;
