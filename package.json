@@ -2,10 +2,9 @@
   "name": "gcp-cloudrun-test",
   "version": "1.0.0",
   "description": "First Pass RSS parser in the cloud",
-  "main": "index.js",
+  "main": "app.js",
   "scripts": {
-    "start": "node index.js",
-    "test": "test"
+    "start": "node app.js"
   },
   "repository": {
     "type": "git",
