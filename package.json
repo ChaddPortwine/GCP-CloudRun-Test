@@ -4,6 +4,7 @@
   "description": "First Pass RSS parser in the cloud",
   "main": "index.js",
   "scripts": {
+    "start": "node index.js",
     "test": "test"
   },
   "repository": {
@@ -17,6 +18,7 @@
   },
   "homepage": "https://github.com/ChaddPortwine/GCP-CloudRun-Test#readme",
   "dependencies": {
+    "express": "^4.17.1",
     "rss-to-json": "^2.0.2"
   }
 }
