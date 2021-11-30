@@ -1,1 +1,4 @@
 *node_modules
+test/zone-response-mock.json
+test/user-response-mock.json
+test/alert-response-mock.json
