@@ -5,7 +5,9 @@
   "main": "/src/app.js",
   "scripts": {
     "start": "node src/routes.js",
-    "test": "jest --watchAll"
+    "test": "jest --watchAll",
+    "build-docker": "docker build -t gcp-cloudrun-test .",
+    "docker": "docker run -it -p 8080:8080 gcp-cloudrun-test"
   },
   "repository": {
     "type": "git",
