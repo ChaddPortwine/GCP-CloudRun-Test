@@ -4,7 +4,7 @@
   "description": "First Pass RSS parser in the cloud",
   "main": "/src/app.js",
   "scripts": {
-    "start": "node src/app.js",
+    "start": "node src/routes.js",
     "test": "jest --watchAll"
   },
   "repository": {
